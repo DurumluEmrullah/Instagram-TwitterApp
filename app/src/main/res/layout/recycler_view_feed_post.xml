@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F1F1E8"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ivRvFeedPostProfilePhoto"
+            android:layout_width="61dp"
+            android:layout_height="61dp"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+        <TextView
+            android:id="@+id/tvRvFeedPostUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:background="@drawable/my_border"
+            android:gravity="center_vertical"
+            android:paddingLeft="10sp"
+            android:text="TextView"
+            android:textColor="#0E0D0D"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivRvFeedPostPost"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/ic_account_circle_black_24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="clip_horizontal|center_horizontal"
+        android:background="@drawable/my_border"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibRvFeedPostLike"
+            android:layout_width="50dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="20dp"
+            android:background="#F4F1F1"
+            app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/ibRvFeedPostComment"
+            android:layout_width="50dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="5dp"
+            android:background="#F4F1F1"
+            app:srcCompat="@drawable/ic_chat_bubble_outline_black_24dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRvFeedPostLikes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12sp"
+        android:text="TextView"
+        android:textColor="#070707"
+        android:background="@drawable/my_border"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvRvFeedPostMyComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_border"
+        android:paddingLeft="12sp"
+        android:text="TextView"
+        android:textColor="#1B1515"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvRvFeedPostComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/my_border"
+        android:paddingLeft="20sp"
+        android:text="TextView"
+        android:textColor="#573E3E"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#0C0C0C" />
+
+</LinearLayout>

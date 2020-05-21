@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "765928079388",
+    "firebase_url": "https://mobilappproje.firebaseio.com",
+    "project_id": "mobilappproje",
+    "storage_bucket": "mobilappproje.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765928079388:android:9a16eb0d2b1a6756ca9fd9",
+        "android_client_info": {
+          "package_name": "com.durumluemrullah.mobilappproje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765928079388-jamorv3g9drjf906aq6vg6katq2i88ae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-3kLi4AVKBmLa5fu0gk_48zz0ikRGdTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765928079388-jamorv3g9drjf906aq6vg6katq2i88ae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

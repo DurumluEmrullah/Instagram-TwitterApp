@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FBFBFB"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#F1E89B"
+        android:orientation="horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ivRvFeedTwitProfilePhoto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:id="@+id/tvRvFeedTwitUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:background="@drawable/my_border"
+            android:gravity="center_vertical"
+            android:paddingLeft="10sp"
+            android:text="TextView"
+            android:textColor="#0E0E0E"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRvFeedTwitTwit"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:paddingLeft="10sp"
+        android:paddingTop="10sp"
+        android:paddingRight="10sp"
+        android:paddingBottom="10sp"
+        android:text="TextView"
+        android:textColor="#101010"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9C7575"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibRvFeedTwitLike"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="#F4F1F1"
+            app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/ibRvFeedTwitComment"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="#F4F1F1"
+            app:srcCompat="@drawable/ic_chat_bubble_outline_black_24dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRvFeedTwitLikes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7C5151"
+        android:paddingLeft="20sp"
+        android:text="TextView"
+        android:textColor="#F5FAF9" />
+
+    <TextView
+        android:id="@+id/tvRvFeedTwitComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#704747"
+        android:paddingLeft="20sp"
+        android:text="TextView"
+        android:textColor="#F5FAF9"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="-------------------------------------------------------------------------------------"
+        android:textColor="#131313" />
+
+</LinearLayout>
